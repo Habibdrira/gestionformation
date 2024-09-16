@@ -1,0 +1,312 @@
+.ha-section.ha-hero {
+  background-color: transparent;
+  background-size: cover;
+  background-position: center; /* Position centrale */
+  padding-top: 180px;
+  padding-bottom: 152px;
+  position: relative;
+  overflow: hidden; /* Pour cacher le débordement des images */
+}
+
+header {
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.ha-content-wrapper {
+  flex-direction: column;
+  flex: none;
+  align-items: stretch;
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  position: relative;
+}
+
+.ha-hero-grid {
+  grid-column-gap: 200px;
+  grid-template-columns: 0.75fr 1fr;
+}
+
+.ha-section.ha-hero {
+  background-color: transparent;
+  width: 100%;
+  padding-top: 180px;
+  padding-bottom: 152px;
+  position: relative;
+}
+
+.ha-section {
+  -webkit-text-fill-color: inherit;
+  background-clip: border-box;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  padding: 100px 52px;
+  display: flex;
+  position: relative;
+}
+
+.ha-hero-content {
+  z-index: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 36px;
+  display: flex;
+  position: relative;
+}
+
+.ha-hero-underline {
+  color: var(--elm);
+  white-space: nowrap;
+  background-image: url(https://assets-global.website-files.com/615184c…/662795f…_Dark-Teal-underline.svg);
+  background-position: 50% 90%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-bottom: 16px;
+  display: inline-block;
+}
+
+.ha-h1.ha-hero-heading {
+  color: #630229;
+  letter-spacing: -3px;
+  padding-bottom: 20px;
+  font-family: DM Sans, sans-serif;
+  font-size: 52px;
+  line-height: 60px;
+}
+
+.ha-hero-sub-heading {
+  opacity: 0.8;
+  color: var(--astronaut);
+  margin-top: 32px;
+  margin-bottom: 40px;
+  font-size: 17px;
+}
+
+.ha-hero-Addimage-1 {
+  z-index: 10;
+  border-radius: 100%;
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  top: 0%;
+  bottom: auto;
+  left: 0%;
+  right: auto;
+}
+
+.ha-hero-image {
+  z-index: 0;
+  background-color: var(--elm);
+  object-fit: cover;
+  border-radius: 100%;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+
+
+.ha-hero-image.ha-classroom {
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+.ha-hero-image-2 {
+  border-radius: 100%;
+  width: 350px;
+  height: 350px;
+  position: absolute;
+  top: 52px;
+  bottom: auto;
+  left: auto;
+  right: 0%;
+}
+
+.ha-hero-image-3 {
+  z-index: 5;
+  border-radius: 100%;
+  width: 320px;
+  height: 320px;
+  position: absolute;
+  top: auto;
+  bottom: -135px;
+  left: -5%;
+  right: auto;
+  overflow: hidden;
+  margin-left: 630px;
+  
+ 
+}
+.circle-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.ha-circle-dot._2 {
+  width: 12px;
+  height: 12px;
+  bottom: 44px;
+  right: 60px;
+}
+
+.ha-circle-dot {
+  background-color: #110552;
+  opacity: 0.2;
+  border-radius: 100%;
+  width: 52px;
+  height: 52px;
+  position: absolute;
+  top: auto;
+  bottom: 0%;
+  left: auto;
+  right: 0%;
+}
+
+.ha-w-background-video {
+  color: #fff;
+  height: 50px;
+  position: relative;
+  overflow: hidden;
+}
+
+.ha-hero-image.ha-course-mobile {
+  z-index: 0;
+}
+
+.ha-circle-decor {
+  z-index: -1;
+  opacity: 0.05;
+  width: 550px;
+  height: 550px;
+  margin-bottom: 500px;
+  position: absolute;
+  top: auto;
+  bottom: -200px;
+  left: -200px;
+  right: auto;
+}
+
+.ha-circle-decor._2 {
+  opacity: 0.05;
+  position: absolute;
+  top: -200px;
+  bottom: auto;
+  left: auto;
+  right: -300px;
+}
+
+img {
+  max-width: 100%;
+  display: inline-block;
+}
+
+.ha-quote._3 {
+  z-index: 50;
+  color: var(--white);
+  background-color: #110552;
+  min-width: 236px;
+  text-decoration: none;
+  transition: all 0.35s;
+  bottom: 0;
+  left: 224px;
+}
+
+.ha-quote-icon.reverse {
+  background-color: var(--white);
+  color: var(--astronaut);
+  padding-left: 3px;
+}
+
+.ha-quote-icon.reverse {
+  background-color: #110552;
+  color: var(--astronaut);
+  padding-left: 3px;
+}
+
+.ha-circle-dot._2 {
+  width: 12px;
+  height: 12px;
+  bottom: 44px;
+  right: 60px;
+}
+
+.ha-thumbs-up {
+  background-color: #110552;
+  border-radius: 100%;
+  justify-content: center;
+  align-items: center;
+  width: 64px;
+  height: 64px;
+  padding: 16px;
+  display: flex;
+  position: absolute;
+  top: 12px;
+  bottom: auto;
+  left: auto;
+  right: 12px;
+}
+
+.ha-quote {
+  background-color: var(--white);
+  border-radius: 35px;
+  align-items: center;
+  min-width: 320px;
+  padding: 8px 16px 8px 8px;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  left: 36px;
+  box-shadow: 1px 1px 55px rgba(0, 0, 0, 0.05);
+}
+
+.ha-w-inline-block {
+  max-width: 100%;
+  display: inline-block;
+}
+
+video {
+  object-fit: contain;
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+
+.ha-w-background-video {
+  color: #fff;
+  height: 500px;
+  position: relative;
+  overflow: hidden;
+}
+
+.ha-hero-image.ha-course-mobile {
+  z-index: 0;
+}
+
+:root {
+  --astronaut: #27326d;
+  --mountain-meadow: #15a89e;
+  --elm: #1e6d83;
+  --off-white: #eaf5f4;
+  --white: white;
+  --sunglow: #ffd329;
+  --sea-buckthorn: #f99b2c;
+  --crusta: #f57f2c;
+  --jet: #333;
+  --silver-chalice: #aaa;
+  --campaign-blue: #4a7e8c;
+  --shadow-x: 14px;
+  --shadow-y: 14px;
+  --shadow-blur: 60px;
+  --shadow-size: 0px;
+  --shadow: rgba(0, 0, 0, 0.05);
+  --black: black;
+}

@@ -1,0 +1,74 @@
+.bg-modal {
+  background-image: linear-gradient(to right, #1105528a, #63022981),
+    url(img/extra/onl.jpg);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-contents {
+  margin-top: 30px;
+  height: 750px;
+  width: 500px;
+  background-color: white;
+  text-align: center;
+  padding: 10px;
+  position: relative;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin: 15px auto;
+  display: block;
+  width: 40%;
+  padding: 8px;
+  border: 1px solid gray;
+}
+
+.button {
+  background-color: #630229;
+  border: 2px solid white;
+  border-radius: 30px;
+  text-decoration: none;
+  padding: 10px 28px;
+  color: white;
+  margin-top: 10px;
+  display: inline-block;
+  &:hover {
+    background-color: #1105528a;
+    color: blue;
+    border: 2px solid blue;
+  }
+}
+
+.close {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  font-size: 42px;
+  color: #333;
+  transform: rotate(45deg);
+  cursor: pointer;
+  &:hover {
+    color: #666;
+  }
+}
+.tab-pane {
+  background-color: transparent;
+}
+
+.how-it-works--text--4ET-k {
+  text-align: center;
+}
+
+.how-it-works--text--4ET-k p {
+  font-size: 22px;
+  padding-top: 120px;
+  color: black;
+}
